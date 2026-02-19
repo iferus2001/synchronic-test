@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 168px;
+    height: 64px;
+    padding: 4px 8px;
+    gap: 4px;
+    background-color: var(--win-bg-color);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 68px;
+    height: 48px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.gameName {
+    color: var(--orange-color);
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.price {
+    color: var(--green-color);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.user {
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    line-height: 1.2;
+}

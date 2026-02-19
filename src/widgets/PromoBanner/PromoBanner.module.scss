@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    justify-content: center;
+}
+
+.link {
+    max-width: 1200px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
