@@ -13,7 +13,7 @@ export class Header {
 
     element.innerHTML = `
       <header class="${styles.header}">
-        <a href="/" class="${styles.logo}">Logo</a>
+        <a href="#" class="${styles.logo}">Logo</a>
         <button class="${styles.finder}">
           <img src="${findIcon}" alt="Search" />
         </button>
